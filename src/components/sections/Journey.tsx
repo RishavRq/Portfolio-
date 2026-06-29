@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import gsap from "gsap";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { TIMELINE } from "@/lib/content";
-
+type GsapContext = ReturnType<typeof gsap.context>;
 export function Journey() {
   const lineRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
