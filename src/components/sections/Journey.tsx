@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import type { Context as GsapContext } from "gsap";
+import gsap from "gsap";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { TIMELINE } from "@/lib/content";
 
